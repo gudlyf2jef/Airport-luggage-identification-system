@@ -1,0 +1,32 @@
+{
+  "name": "airport-luggage-identification-system",
+  "version": "1.0.0",
+  "description": "development of an airport luggage identification system that triggers an alert once a user leaves his/her luggage for a particular distance.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "keen.io": "^0.1.5",
+    "mongoose": "^5.9.18",
+    "node-rfid": "^1.0.7",
+    "nodemon": "^2.0.4",
+    "rfid-pn532": "^0.1.9",
+    "tessel": "^0.3.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pryme0/Airport-luggage-identification-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pryme0/Airport-luggage-identification-system/issues"
+  },
+  "homepage": "https://github.com/pryme0/Airport-luggage-identification-system#readme"
+}
